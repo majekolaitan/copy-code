@@ -77,3 +77,4 @@ if __name__ == "__main__":
     OUTPUT_FILE = 'combined_code.md'
     
     combine_files(LIST_FILE, OUTPUT_FILE)
+    input("Press Enter to exit...")
