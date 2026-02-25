@@ -70,6 +70,8 @@ def combine_files(input_list_file, output_md_file):
     print("Job complete.")
 
 if __name__ == "__main__":
+    # Force the current working directory to be the folder where this script is located
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
     # Configuration
     LIST_FILE = 'files_to_read.txt'
     OUTPUT_FILE = 'combined_code.md'
