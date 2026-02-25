@@ -119,3 +119,4 @@ if __name__ == "__main__":
     # Force the current working directory to be the folder where this script is located
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     main()
+    input("Press Enter to exit...")
